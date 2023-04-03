@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <div class="number-generator">
+      <div class="container">
+        <div id="random">random number</div>
+        <div class="number">31</div>
+      </div>
+      <div class="parameters">
+        <div class="radio">
+          <div class="parameter">
+            <input
+              type="radio"
+              id="range-input"
+              class="radion-input js-range-input"
+              name="parameter"
+              checked="checked"
+            />
+            <label for="range-input" class="radio__lable">Diapozon</label>
+          </div>
+
+          <div class="parameter">
+            <input
+              type="radio"
+              id="list-input"
+              class="radio__input js-list-input"
+              name="parameter"
+            />
+            <label for="list-input" class="radio__lable">in list</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/app.js"></script>
   </body>
 </html>
