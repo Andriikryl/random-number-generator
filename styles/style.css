@@ -41,13 +41,93 @@
     background-color: #ffbf81;
     padding: 70px;
     border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
   .container{
     padding: 50px;
     background-color: #ffa3a5;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
   .list-numbers{
-    opacity: 1;
+    opacity: 0;
+  }
+
+
+  .title{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a41623;
+    padding: 10px;
+    margin-block-end: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  .num{
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ffd29d;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: #f85e00;
+    width: max-content;
+    margin: auto;
+    margin-block-end: 10px;
+  }
+
+  .radio__lable{
+    font-size: 30px;
+    color: #f85e00;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-block: 10px;
+    border-radius: 10px;
+  }
+  .parameter{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-block-end: 15px;
+    
+  }
+
+  span{
+    font-size: 28px;
+    padding: 10px;
+    color: #001f54;
+  }
+
+  .min-number,
+  .max-number{
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+
+  .list-numbers{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .js-btn{
+    margin-block-start: 20px;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #a41623;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: #001f54;
+    text-transform: uppercase;
   }
