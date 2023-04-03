@@ -1,4 +1,4 @@
-const number = document.querySelector(".js-");
+const number = document.querySelector(".js-number");
 const parameters = document.querySelector(".js-parameters");
 const rangeInput = document.querySelector(".js-range-input");
 const minNumber = document.querySelector(".js-min-number");
@@ -19,4 +19,16 @@ listNumbers.addEventListener("input", (e) => {
   e.target.value = e.target.value.replace(/[^\s\d]/g, "");
 });
 
-listNumbers.addEventListener("click", (e) => {});
+btn.addEventListener("click", (e) => {
+  if (rangeInput.checked) {
+    number.innerHTML = Math.floor(
+      Number(minNumber.value) +
+        Math.random() * (Number(maxNumber.value) + 1 - Number(minNumber.value))
+    );
+  }
+  if (listInput.checked) {
+    let arrListNumbers = listNumbers.value.trim().split(/\s+/);
+    number.innerHTML =
+      arrListNumbers[Math.floor(Math.random() * arrListNumbers.length)];
+  }
+});
