@@ -25,3 +25,29 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  body{
+    background-color: #ffdc5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .number-generator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffbf81;
+    padding: 70px;
+    border-radius: 10px;
+  }
+
+  .container{
+    padding: 50px;
+    background-color: #ffa3a5;
+  }
+
+  .list-numbers{
+    opacity: 1;
+  }
